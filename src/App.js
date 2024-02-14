@@ -12,7 +12,7 @@ const App = () => {
       <Router>
         <Navbar/>
         <Routes>
-          <Route exact path='/' element={<Home/>}/>
+          <Route exact path='/' element={<Home cat='general'/>}/>
           <Route exact path='/general' element={<FetchData cat='general'/>}/>
           <Route exact path='/bussiness' element={<FetchData cat='business'/>}/>
           <Route exact path='/entertainment' element={<FetchData cat='entertainment'/>}/>
